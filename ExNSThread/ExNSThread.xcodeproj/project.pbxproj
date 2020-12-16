@@ -14,6 +14,7 @@
 		C88D75CD2584AC8F00866691 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C88D75CC2584AC8F00866691 /* Assets.xcassets */; };
 		C88D75D02584AC8F00866691 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C88D75CE2584AC8F00866691 /* LaunchScreen.storyboard */; };
 		C88D75D32584AC8F00866691 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C88D75D22584AC8F00866691 /* main.m */; };
+		C8F749682588E36B00938362 /* MXThread.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F749672588E36B00938362 /* MXThread.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		C88D75CF2584AC8F00866691 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C88D75D12584AC8F00866691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C88D75D22584AC8F00866691 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C8F749662588E36B00938362 /* MXThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXThread.h; sourceTree = "<group>"; };
+		C8F749672588E36B00938362 /* MXThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXThread.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				C88D75CE2584AC8F00866691 /* LaunchScreen.storyboard */,
 				C88D75D12584AC8F00866691 /* Info.plist */,
 				C88D75D22584AC8F00866691 /* main.m */,
+				C8F749662588E36B00938362 /* MXThread.h */,
+				C8F749672588E36B00938362 /* MXThread.m */,
 			);
 			path = ExNSThread;
 			sourceTree = "<group>";
@@ -148,6 +153,7 @@
 				C88D75C82584AC8C00866691 /* ViewController.m in Sources */,
 				C88D75C22584AC8C00866691 /* AppDelegate.m in Sources */,
 				C88D75D32584AC8F00866691 /* main.m in Sources */,
+				C8F749682588E36B00938362 /* MXThread.m in Sources */,
 				C88D75C52584AC8C00866691 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
